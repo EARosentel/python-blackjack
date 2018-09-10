@@ -1,4 +1,4 @@
-import Player
+import Player, Deck
 
 
 def get_player_info(player):
@@ -8,10 +8,10 @@ def get_player_info(player):
     player.set_bank(pbank)
 
 
-
-
-
-
+def display_table(player, computer):
+    print(computer)
+    print()
+    print(player)
 
 
 if __name__ == '__main__':
@@ -24,8 +24,21 @@ if __name__ == '__main__':
     player1 = Player()
     get_player_info(player1)
 
+    deck = Deck()
+
     while True:
+        # game set up
+        deck.shuffle()
+        player1.reset_hand()
+        dealer.reset_hand()
+
+        # deal initial cards
+        player1.draw_card(deck.deal())
+        player1.draw_card(deck.deal())
+        dealer.draw_card(deck.deal())
+        dealer.draw_card(deck.deal())
+
+
         
-        pass
 
 

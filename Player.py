@@ -20,6 +20,11 @@ class Player:
     def set_bank(self, pbank):
         self.bank = pbank
 
+    def draw_card(self, card):
+        self.hand.draw(card)
+
+    def reset_hand(self):
+        self.hand = Hand()
 
 
 
