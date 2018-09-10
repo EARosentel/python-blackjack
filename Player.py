@@ -26,5 +26,22 @@ class Player:
     def reset_hand(self):
         self.hand = Hand()
 
+    def get_hand_total(self):
+        return self.hand.value
+
+    def hit_21(self):
+        print(f'BLACKJACK!!! {self.name} wins!!')
+        return False
+
+    def bust(self):
+        print(f'{self.name} busts! Game Over')
+        return False
+
+    def win(self):
+        print(f'{self.name} wins!!!')
+        return False
+
+
+
 
 

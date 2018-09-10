@@ -8,4 +8,4 @@ class Cards:
         self.value = Cards.values(face)
 
     def __str__(self):
-        return f'{self.face} of {self.suit}'
+        return f'[{self.face} of {self.suit}]'

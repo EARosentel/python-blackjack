@@ -22,4 +22,11 @@ class Hand:
         self.value += card.value
 
     def __str__(self):
-        pass
+        result = ""
+        for index in len(self.cards):
+            result.append(f"{self.cards[index]} ")
+        return result
+
+    def show_first_card(self):
+        return f"{self.cards[0]} "
+
