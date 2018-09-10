@@ -2,7 +2,7 @@
 class Hand:
 
     def __init__(self):
-        self.cards = 0
+        self.cards = []
         self.value = 0
 
     def check(self):
@@ -18,5 +18,8 @@ class Hand:
         :param card: expects a Cards Object
         :return: n/a
         """
-        self.cards += 1
+        self.cards.append(self, card)
         self.value += card.value
+
+    def __str__(self):
+        pass
