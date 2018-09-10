@@ -1,4 +1,4 @@
-import Deck, Hand, Cards
+import Hand
 
 
 class Player:
@@ -13,6 +13,13 @@ class Player:
 
     def update_bank(self, bet_amount):
         self.bank += bet_amount
+
+    def set_name(self, pname):
+        self.name = pname
+
+    def set_bank(self, pbank):
+        self.bank = pbank
+
 
 
 
