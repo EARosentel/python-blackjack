@@ -22,13 +22,13 @@ class Deck:
 
     def __str__(self):
         """
-        Adds each card to the result string in parentheses with a comma after
-        :return: The result string minus the last character, which would be an extra comma
+        Adds each card to the result string in parentheses followed by a newline character
+        :return: The result string
         """
         result = ""
         for card in self.cards:
-            result.append(f"({card.__str__()}),")
-        return result[0:-1]
+            result.append(f"({card.__str__()})\n")
+        return result
 
     def deal(self):
         """
