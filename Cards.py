@@ -5,7 +5,7 @@ class Cards:
     def __init__(self, suit, face):
         self.suit = suit
         self.face = face
-        self.value = Cards.values(face)
+        self.value = Cards.values.get(face)
 
     def __str__(self):
         return f'[{self.face} of {self.suit}]'

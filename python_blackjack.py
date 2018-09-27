@@ -1,5 +1,5 @@
-import Player
-import Deck
+from Player import Player
+from Deck import Deck
 
 
 def get_player_info(player):
@@ -10,16 +10,24 @@ def get_player_info(player):
 
 
 def display_table(player, computer, show_all):
+    print("--------------------------------------------")
     if show_all:
         print(computer.hand)
     else:
-        print(computer.hand.show_first_card())
+        print(computer.hand.show_first_card()+"[ unknown card ]")
 
     print()
     print(player.hand)
+    print()
+
+    print("--------------------------------------------")
+    print()
+
 
 def play_again():
     return input('Would you like to keep playing? (Y/N) ')
+
+
 if __name__ == '__main__':
 
     # set up computer player/house/dealer
@@ -53,7 +61,8 @@ if __name__ == '__main__':
         # player1 - hit or stay
         hit = True
         while hit:
-            response = input('Would you like to hit or stay? (Y/N)')
+
+            response = input('Would you like to hit? (Y/N)')
             if response.upper() == 'Y':
                 player1.draw_card(deck.deal())
                 if player1.get_hand_total() < 21:
@@ -65,12 +74,23 @@ if __name__ == '__main__':
                     player1.bust()
                     game_on = dealer.win()
                     break
+                # show board - pass in false for show all attribute
+                display_table(player1, dealer, show_all=False)
+
             else:
                 hit = False
 
+        # show board - pass in true for show all attribute
+        # dealer's cards are now revealed
+        display_table(player1, dealer, show_all=True)
+
         # dealer - hit until win or bust
         while game_on:
+
             dealer.draw_card(deck.deal())
+            # show board - pass in true for show all attribute
+            # dealer's cards are now revealed
+            display_table(player1, dealer, show_all=True)
 
             if dealer.get_hand_total() > 21:
                 dealer.bust()

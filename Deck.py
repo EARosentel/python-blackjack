@@ -1,5 +1,5 @@
 import random
-import Cards
+from Cards import Cards
 
 
 class Deck:
@@ -15,7 +15,7 @@ class Deck:
         self.cards = []
         for face in Deck.faces:
             for suit in Deck.suits:
-                self.cards.append(self, Cards.Cards(suit, face))
+                self.cards.append(Cards(suit, face))
 
     def shuffle(self):
         random.shuffle(self.cards)
@@ -35,5 +35,5 @@ class Deck:
         Removes one card from the deck
         :return: removed card
         """
-        return self.cards.pop(self)
+        return self.cards.pop()
 
