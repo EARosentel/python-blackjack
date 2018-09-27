@@ -1,4 +1,4 @@
-import Hand
+from Hand import Hand
 
 
 class Player:
@@ -20,6 +20,9 @@ class Player:
     def set_bank(self, pbank):
         self.bank = pbank
 
+    def get_bank(self):
+        return self.bank
+
     def draw_card(self, card):
         self.hand.draw(card)
 
@@ -29,19 +32,24 @@ class Player:
     def get_hand_total(self):
         return self.hand.value
 
-    def hit_21(self):
+    def hit_21(self, betamount):
         print(f'BLACKJACK!!! {self.name} wins!!')
+        self.update_bank(betamount)
         return False
 
-    def bust(self):
+    def bust(self, betamount):
         print(f'{self.name} busts! Game Over')
+        self.update_bank(betamount*-1)
         return False
 
-    def win(self):
+    def win(self, betamount):
         print(f'{self.name} wins!!!')
+        self.update_bank(betamount)
         return False
 
-
+    def lose(self, betamount):
+        self.update_bank(betamount*-1)
+        return False
 
 
 

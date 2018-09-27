@@ -18,13 +18,13 @@ class Hand:
         :param card: expects a Cards Object
         :return: n/a
         """
-        self.cards.append(self, card)
+        self.cards.append(card)
         self.value += card.value
 
     def __str__(self):
         result = ""
-        for index in len(self.cards):
-            result.append(f"{self.cards[index]} ")
+        for card in self.cards:
+            result += f"{card} "
         return result
 
     def show_first_card(self):
