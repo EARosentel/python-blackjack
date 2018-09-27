@@ -1,6 +1,5 @@
 from Player import Player
 from Deck import Deck
-import time
 
 
 def get_player_info(player):
