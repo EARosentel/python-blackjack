@@ -2,10 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a13097d9-9231-4625-8afd-3419a4cbc393" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cards.py" beforeDir="false" afterPath="$PROJECT_DIR$/Cards.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Deck.py" beforeDir="false" afterPath="$PROJECT_DIR$/Deck.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hand.py" beforeDir="false" afterPath="$PROJECT_DIR$/Hand.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Player.py" beforeDir="false" afterPath="$PROJECT_DIR$/Player.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/python_blackjack.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_blackjack.py" afterDir="false" />
     </list>
@@ -27,12 +23,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="4339" />
+          <entry key="py" value="5039" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="4339" />
+          <entry key="Python" value="5039" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -69,11 +65,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/python_blackjack.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="292">
-              <caret line="64" column="51" selection-start-line="64" selection-start-column="51" selection-end-line="64" selection-end-column="51" />
+            <state relative-caret-position="280">
+              <caret line="75" column="62" selection-start-line="75" selection-start-column="62" selection-end-line="75" selection-end-column="62" />
               <folding>
-                <element signature="e#0#21#0" expanded="true" />
-                <marker date="1538013680929" expanded="true" signature="604:666" ph="..." />
+                <element signature="e#0#25#0" expanded="true" />
+                <marker date="1538015306465" expanded="true" signature="631:693" ph="..." />
               </folding>
             </state>
           </provider>
@@ -91,11 +87,12 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Player.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="17" column="25" lean-forward="true" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
+            <state relative-caret-position="119">
+              <caret line="19" column="30" lean-forward="true" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
               <folding>
-                <marker date="1538013081066" expanded="true" signature="37:38" ph="..." />
-                <marker date="1538013081066" expanded="true" signature="37:43" ph="..." />
+                <marker date="1538014497724" expanded="true" signature="37:38" ph="..." />
+                <marker date="1538014497724" expanded="true" signature="37:43" ph="..." />
+                <marker date="1538014497724" expanded="true" signature="471:502" ph="..." />
               </folding>
             </state>
           </provider>
@@ -138,10 +135,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Player.py" />
         <option value="$PROJECT_DIR$/Cards.py" />
         <option value="$PROJECT_DIR$/Deck.py" />
         <option value="$PROJECT_DIR$/Hand.py" />
+        <option value="$PROJECT_DIR$/Player.py" />
         <option value="$PROJECT_DIR$/python_blackjack.py" />
       </list>
     </option>
@@ -156,7 +153,7 @@
     <option name="x" value="526" />
     <option name="y" value="1" />
     <option name="width" value="1400" />
-    <option name="height" value="990" />
+    <option name="height" value="1018" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -212,8 +209,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="421" y="1" width="1120" height="792" extended-state="0" />
-    <editor active="true" />
+    <frame x="421" y="1" width="1120" height="814" extended-state="0" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18679245" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -229,7 +225,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.32928678" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.31864905" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -259,17 +255,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Player.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="17" column="25" lean-forward="true" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
-          <folding>
-            <marker date="1538013081066" expanded="true" signature="37:38" ph="..." />
-            <marker date="1538013081066" expanded="true" signature="37:43" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Deck.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
@@ -292,13 +277,25 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Player.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="19" column="30" lean-forward="true" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
+          <folding>
+            <marker date="1538014497724" expanded="true" signature="37:38" ph="..." />
+            <marker date="1538014497724" expanded="true" signature="37:43" ph="..." />
+            <marker date="1538014497724" expanded="true" signature="471:502" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/python_blackjack.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="292">
-          <caret line="64" column="51" selection-start-line="64" selection-start-column="51" selection-end-line="64" selection-end-column="51" />
+        <state relative-caret-position="280">
+          <caret line="75" column="62" selection-start-line="75" selection-start-column="62" selection-end-line="75" selection-end-column="62" />
           <folding>
-            <element signature="e#0#21#0" expanded="true" />
-            <marker date="1538013680929" expanded="true" signature="604:666" ph="..." />
+            <element signature="e#0#25#0" expanded="true" />
+            <marker date="1538015306465" expanded="true" signature="631:693" ph="..." />
           </folding>
         </state>
       </provider>
